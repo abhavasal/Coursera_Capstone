@@ -13,14 +13,19 @@ The problem can recommend other people thinking of relocating and suggest them w
 
 
 Part 2 - Describe the data 
-1.	.In this section, I will describe the data used to solve the problem as described previously.
+1.	In this section, I will describe the data used to solve the problem as described previously.
 The website https://www.numbeo.com/ was scrapped to extract data about of cost of living index and property price index for all the major world cities. Rows corresponding to Boston and Chicago was filtered and analyzed visually. Using BeautifulSoup and Requests, the results the results were retrieved. 
 2.	Data Chicago Airbnb listings data is downloaded from http://insideairbnb.com/get-the-data.html. The data behind the Inside Airbnb site is sourced from publicly available information from the Airbnb site. The file listings – provides detailed listings showing 96 attributes for each of the listings. Some of the attributes used in the analysis are  price (continuous), longitude), latitude (continuous), property_type (categorical), is_superhost (categorical), neighborhood , ratings (continuous) ,reviews are some of them.
 
 
 
-3.	Chicago is divided into 77 community areas. Community areas are distinct from the more numerous neighborhoods in Chicago. Community areas often encompass groups of neighborhoods. Although many community areas contain more than one neighborhood, they may also share the same name, or parts of the name, of some of their individual neighborhoods.
+3.  Chicago is divided into 77 community areas. Community areas are distinct from the more numerous neighborhoods in Chicago. Community areas often encompass groups of neighborhoods. Although many community areas contain more than one neighborhood, they may also share the same name, or parts of the name, of some of their individual neighborhoods.
 Wikipedia site https://en.wikipedia.org/wiki/Community_areas_in_Chicago was used to extract names of Community Areas and neighborhoods with in those areas.
+The data is given as below
+Number,	Community area	 ,         Neighborhoods
+
+08	-    Near North Side	-        Cabrini–Green,The Gold Coast ,Goose Island, Magnificent Mile, Old Town, River North,River West, Streetville
+
 4.	We used open source Chicago Crime data from https://data.cityofchicago.org  to provide the user with crime data for the year 2018.
 A record looks like this 
 ID  11561837
